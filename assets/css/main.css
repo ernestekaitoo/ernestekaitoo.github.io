@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444d4d; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #003a36; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #1e3a8a; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #5b7cca; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -769,7 +769,7 @@ section,
 }
 
 .hero .hero-content .hero-btns .btn-primary {
-  background-color: var(--accent-color);
+  background-color: transparent;
   border-color: var(--accent-color);
   color: var(--contrast-color);
 }
@@ -782,7 +782,7 @@ section,
 .hero .hero-content .hero-btns .btn-outline {
   background-color: transparent;
   border: 2px solid var(--accent-color);
-  color: var(--accent-color);
+  color: #5b7cca;
 }
 
 .hero .hero-content .hero-btns .btn-outline:hover {
